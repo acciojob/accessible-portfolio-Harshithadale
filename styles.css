@@ -1,2 +1,51 @@
 
 /* Your CSS Code here. */
+.main-container{
+	height:1009px;
+	width:1961px;
+	background-color:#FFB400;
+}
+.side-heading{
+	height:125px;
+	width:368px;
+	color:black;
+	position:absolute;
+	left:222px;
+	top:274px;
+}
+.details-container{
+	width:876px;
+	height:858px;
+	background-color:ghostwhite;
+	position: absolute; left: 870px; top: 78px;
+}
+.top-bar {
+    display: flex; /* Enables horizontal alignment */
+    align-items: center; /* Aligns items vertically in the center */
+    gap: 20px; /* Adds space between the image and text */
+	background-color:#ffffff;
+}
+
+.profile-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    border-radius: 50%; /* Makes it circular */
+	margin:40px;
+}
+.details-container {
+    max-width: 800px; /* Adjust width for better readability */
+    margin: auto; /* Centers the container */
+}
+.bottom-bar{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	background-color:#ffffff;
+	
+}
+.edu-heading{
+	text-decoration:underline;
+}
+.myname{
+	font-weight:bold;
+}
